@@ -16,7 +16,7 @@
 
         <!-- Name -->
         <div>
-            <label for="name">Name:</label>
+            <label for="username">Username:</label>  <!-- Changed from 'name' to 'username' -->
             <input id="name" type="text" name="name" value="{{ old('name') }}" required autofocus>
             @error('name')
                 <div>{{ $message }}</div>
